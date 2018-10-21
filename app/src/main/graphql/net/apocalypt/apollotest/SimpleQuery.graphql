@@ -1,0 +1,11 @@
+query SimpleQuery {
+  Page {
+    media(season:SUMMER, seasonYear: 2018, isAdult:true) {
+      id
+      popularity
+      title {
+        romaji
+      }
+    }
+  }
+}
